@@ -1,1 +1,3 @@
 # github-action-playground
+
+It's for validating github actions behavior between branches and pushes and etc...
