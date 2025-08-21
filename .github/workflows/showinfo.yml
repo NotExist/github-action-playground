@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  show-info:
+    runs-on: macos-latest
+    steps:
+      - run: uname -a
+      - run: env
