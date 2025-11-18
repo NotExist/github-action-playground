@@ -1,2 +1,10 @@
 on: workflow_dispatch
-jobs
+jobs:
+  the_only_job:
+    runs-on: ubuntu-24.04-arm # or ubuntu-22.04-arm
+#    steps:
+#      - uses: actions/checkout@v4
+#      - name: Run on ARM64
+#        run: |
+#          echo "Running on ARM64 architecture"
+#          uname -m
